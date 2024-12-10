@@ -18,7 +18,7 @@ function Header() {
 
             {/* Показываем логотип только, если меню не активно */}
             {isNavActive ? null : (
-              <a href="#!">
+              <a className='logo' href="#!">
                 <img src={logo} alt="LoftHouse" />
               </a>
             )}
