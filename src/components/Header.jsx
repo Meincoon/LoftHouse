@@ -6,11 +6,8 @@ function Header() {
   const [isNavActive, setIsNavActive] = useState(false);
 
   const toggleNav = () => {
-    setIsNavActive((prevState) => {
-      const newState = !prevState;
-      document.body.classList.toggle('no-scroll', newState); // Обновляем класс после изменения состояния
-      return newState;
-    });
+    setIsNavActive(!isNavActive);
+    document.body.classList.toggle('no-scroll', !isNavActive);
   };
 
   return (
