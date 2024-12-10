@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '/logo.svg';
+import logo from '@/assets/img/logo.svg';
 import scrollIcon from '@/assets/img/header/mouse.svg';
 
 function Header() {
