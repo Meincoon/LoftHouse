@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react()],
-  base: '/LoftHouse/' ,
+  base: '/LoftHouse',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'), // Теперь '@' указывает на папку src
