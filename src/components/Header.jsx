@@ -22,7 +22,7 @@ function Header() {
                 <img src={logo} alt="LoftHouse" />
               </a>
             )}
-            
+             
             <div className="header__nav">
               <nav className="nav">
                 <ul className="nav__list">
