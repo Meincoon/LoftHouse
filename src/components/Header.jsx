@@ -16,10 +16,12 @@ function Header() {
         <div className="container">
           <div className="header__top-row">
 
+          {!isNavActive && (
             <a href="#!">
               <img src={logo} alt="LoftHouse" />
             </a>
-
+          )}
+          
             <div className="header__nav">
               <nav className="nav">
                 <ul className="nav__list">
