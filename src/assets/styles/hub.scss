@@ -1,0 +1,21 @@
+// Base
+@use './base/reset' as *;
+@use './base/vars' as *;
+@use './base/mixins' as *;
+@use './base/base' as *;
+
+// Blocks
+@use './blocks/header' as *;
+@use './blocks/nav' as *;
+@use './blocks/nav-icon' as *;
+@use './blocks/info' as *;
+@use './blocks/benefits' as *;
+@use './blocks/apartments' as *;
+@use './blocks/card' as *;
+@use './blocks/cta' as *;
+@use './blocks/form' as *;
+@use './blocks/video' as *;
+@use './blocks/section-map' as *;
+@use './blocks/yandex-map' as *;
+@use './blocks/feedback' as *;
+@use './blocks/footer' as *;
